@@ -14,8 +14,10 @@ export default function Home() {
           Niklas welcomes <a href="https://nextjs.org">Next.js!</a>
         </h1>
 
-        <Counter name={"Pablo"} mult={1} size={2}/>
+      <Counter name={"Pablo"} mult={1} size={2}/>
       <Counter name={"Pia"} mult={2} size={0.5}/>
+
+      <p>Here is a link to this code on <a href='https://github.com/NiklasReiswig/first-nextJS'>github</a>. For the final project I am interested in DDOS with websites so I would like to learn and teach about them.</p>
       
     </div>
   );
