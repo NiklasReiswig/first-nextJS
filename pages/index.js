@@ -14,7 +14,8 @@ export default function Home() {
           Niklas welcomes <a href="https://nextjs.org">Next.js!</a>
         </h1>
 
-      <Counter />
+        <Counter name={"Pablo"} mult={1} size={2}/>
+      <Counter name={"Pia"} mult={2} size={0.5}/>
       
     </div>
   );
